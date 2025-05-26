@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-parson-three
+  description: my third app
+  links:
+    - url: https://dev.azure.com/TR-Harness/Harness-POV/_workitems/recentlycreated/
+      title: Azure DevOps Boards
+      icon: microsoft-azure  
+  additionalInfo:
+    open_ado_items: ""
+ # tags:
+ #   - replace-this
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: harness-tr/java-parson-three
+    snyk.io/org-id: b4c68fa5-d1b2-451f-a162-ea2ed840727f
+    snyk.io/target-id: harness-tr/java-parson-three
+    wiz.io/project-id: harness-tr/java-parson-three
+    sonarqube.org/project-key: harness-tr_java-parson-three
+    backstage.io/kubernetes-label-selector: 'app=java-parson-three'
+spec:
+  type: service
+  owner: todd.parson@harness.io
+  lifecycle: experimental
+#  dependsOn:
+#    - component:default/replace-this
+#  system: poc-system
